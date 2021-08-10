@@ -48,7 +48,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo_solidaritas.png" alt="" class="img-fluid"></a>
+      <a href="index.blade.php" class="logo"><img src="assets/img/logo_solidaritas.png" alt="" class="img-fluid"></a>
       <!-- Uncomment below if you prefer to use text as a logo -->
       <!-- <h1 class="logo"><a href="index.html">Butterfly</a></h1> -->
 
@@ -276,7 +276,8 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>Komponen Bantuan Sosial Tahap III </h1>
             <p>Ada perubahan komponen bantuan di penyaluran tahap III. Apa saja? </p>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary" href="https://google.com">
+              <i class="fa external-link-alt"></i>
               Cek disini!
             </button>
           </div>
@@ -318,35 +319,61 @@
     </div>
   </div>
   </section>
-  <section id="services" class="services section-bg">
-    <div class="container">
+  <section id="bekerjasama" class="bekerjasama">
+    <div class="section-title">
+      <h2>Bekerja sama dengan </h2>
+  </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <a href="/">
+            <img class="img-responsive" src="{{url('assets/img/Lambang_Kabupaten_Ciamis.png')}}"style="position: relative; display: inline-block; left: 50%; transform: translate(-50%);">
+          </a>
+        </div>
+        <div class="col">
+          <a href="/">
+            <img class="img-responsive" src="{{url('assets/img/gugus_tugas.png')}}"style="position: relative; display: inline-block; left: 50%; transform: translate(-50%);">
+          </a>
 
-      <div class="section-title">
-        <h2>Bekerja sama dengan </h2>
+        </div>
+        <div class="col">
+          <a href="/">
+            <img class="img-responsive" src="{{url('assets/img/dinsos.png')}}"style="position: relative; display: inline-block; left: 50%; transform: translate(-50%);">
+          </a>
+
+        </div>
+        <div class="col">
+          <a href="/">
+            <img class="img-responsive" src="{{url('assets/img/logo_pikobar.png')}}"style="position: relative; display: inline-block; left: 50%; transform: translate(-50%);">
+          </a>
+
+        </div>
       </div>
       <div class="row align-items-center">
-        <div class="col-3">
-          <a href="/">
-            <img class="img-responsive" src="assets/img/Lambang_Kabupaten_Ciamis.png">
-          </a>
-        <div class="col-3">
-          <a href="/">
-            <img class="img-responsive" src="assets/img/Lambang_Kabupaten_Ciamis.png">
-          </a>
+        <div class="col-sm">
+          <center>
+            <p>Pemerintah<br> Kabupaten Ciamis</p>
+          </center>
         </div>
-        <div class="col-3">
-          <a href="/">
-            <img class="img-responsive" src="assets/img/Lambang_Kabupaten_Ciamis.png">
-          </a>
+        <div class="col-sm">
+          <center>
+            <p>Gugus Tugas Percepatan Penanggulangan<br> Kabupaten Ciamis</p>
+          </center>
         </div>
-        <div class="col-3">
-          <a href="/">
-            <img class="img-responsive" src="assets/img/Lambang_Kabupaten_Ciamis.png">
-          </a>
+        <div class="col-sm">
+          <center>
+            <p>Dinas Sosial<br> Kabupaten Ciamis</p>
+          </center>
         </div>
-      </div>
+        <div class="col-sm">
+          <center>
+            <p>Pusat Informasi & Koordinasi<br> Kabupaten Ciamis</p>
+          </center>
+        </div>
+        <div id="home-btn" class="animated zoomIn">
+          <a href="http://www.yumpu.com/fr/embed/view/OPR2Gbw5Ml83hkp4" target="_blank">
+              <button class="btn btn-lg btn-general btn-white smooth-scroll"  type="button" title="Magazine Carrefour Floride en ligne">Clicquez ici pour lire le Magazine en Ligne.   <button> 
+          </a>
     </div>
-  </div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
