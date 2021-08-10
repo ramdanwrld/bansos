@@ -369,10 +369,6 @@
             <p>Pusat Informasi & Koordinasi<br> Kabupaten Ciamis</p>
           </center>
         </div>
-        <div id="home-btn" class="animated zoomIn">
-          <a href="http://www.yumpu.com/fr/embed/view/OPR2Gbw5Ml83hkp4" target="_blank">
-              <button class="btn btn-lg btn-general btn-white smooth-scroll"  type="button" title="Magazine Carrefour Floride en ligne">Clicquez ici pour lire le Magazine en Ligne.   <button> 
-          </a>
     </div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
