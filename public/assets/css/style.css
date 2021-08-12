@@ -380,7 +380,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f4fbfe;
+  background-color: #DCDCDC;
 }
 
 .section-title {
@@ -1498,4 +1498,14 @@ section {
 #ramdan .hero-img img {
   width: 80%;
 }
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
