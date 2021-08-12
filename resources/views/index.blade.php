@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>SOLIDARITAS - Sistem Online Data Penerima Bantuan Sosial Kabupaten Ciamis</title>
+  <title>PIKOCIS - Bantuan Sosial Kabupaten Ciamis</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   
@@ -30,25 +29,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Butterfly - v4.3.0
-  * Template URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-    <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
-
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="index.blade.php" class="logo"><img src="assets/img/logo_solidaritas.png" alt="" class="img-fluid"></a>
+      <a href="index.blade.php" class="logo"><img src="assets/img/pikocis.png" alt="" class="img-fluid"></a>
       <!-- Uncomment below if you prefer to use text as a logo -->
       <!-- <h1 class="logo"><a href="index.html">Butterfly</a></h1> -->
 
