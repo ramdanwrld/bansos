@@ -162,49 +162,46 @@
     <section id="services" class="services section-bg">">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-sm">
               <div class="icon-box">
-                <h4 class="title"><a href="">Pencarian Penerima Bantuan</a></h4>
-                <p class="description">Anda dapat melakukan pencarian penerima bantuan dengan cara input nomor NIK di bawah ini.</p>
+                <h5 style="text-align:center;">Pencarian Penerima Bantuan</a></h5><br>
+                <p style="text-align:justify;">Anda dapat melakukan pencarian penerima bantuan dengan cara input nomor NIK di bawah ini.</p><br><br><br>
                 <div class="input-group">
-                  <div class="form-outline">
-                    <input type="search" id="form1" class="form-control" />
-                    <label class="form-label" for="form1">Search</label>
+                  <input type="text" class="form-control" placeholder="Masukkan NIK">
+                  <div class="input-group-append">
+                      <button class="btn btn-secondary" type="button"style="background-color : #1E88E5;">
+                          <i class="fa fa-search"></i>
+                      </button>
                   </div>
-                  <button type="button" class="btn btn-primary">
-                    <i class="fas fa-search"></i>
-                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-sm">
               <div class="icon-box">
-                <h4 class="title"><a href="">Informasi Penolakan</a></h4>
-                <p class="description">Untuk mengetahui kenapa anda tidak lolos dalam penetapan bansos provinsi Anda dapat mengisi NIK di bawah ini. Untuk keterangan lebih lanjut seputar Informasi Penolakan Klik Disini</p>
+                <h5 style="text-align:center;">Informasi Penolakan</a></h5><br>
+                <p style="text-align:justify;">Untuk mengetahui kenapa anda tidak lolos dalam penetapan bansos provinsi Anda dapat mengisi NIK di bawah ini. Untuk keterangan lebih lanjut seputar Informasi Penolakan Klik Disini</p>
                 <div class="input-group">
-                  <div class="form-outline">
-                    <input type="search" id="form1" class="form-control" />
-                    <label class="form-label" for="form1">Search</label>
+                  <input type="text" class="form-control" placeholder="Masukkan NIK">
+                  <div class="input-group-append">
+                      <button class="btn btn-secondary" type="button"style="background-color : #1E88E5;">
+                          <i class="fa fa-search"></i>
+                      </button>
                   </div>
-                  <button type="button" class="btn btn-primary">
-                    <i class="fas fa-search"></i>
-                  </button>
                 </div>
               </div>
             </div>
   
-            <div class="col-lg-4 col-md-6" data-wow-delay="0.1s">
+            <div class="col-sm" data-wow-delay="0.1s">
               <div class="icon-box">
-                <h4 class="title"><a href="">Lacak Penyaluran</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h5 style="text-align:center;">Lacak Penyaluran</a></h5><br>
+                <p style="text-align:justify;">Untuk melakukan pelacakan penyaluran bansos provinsi masukkan nomor NIK di bawah ini.</p><br><br><br>
                 <div class="input-group">
-                  <div class="form-outline">
-                    <input type="search" id="form1" class="form-control" />
-                    <label class="form-label" for="form1">Search</label>
+                  <input type="text" class="form-control" placeholder="Masukkan NIK">
+                  <div class="input-group-append">
+                      <button class="btn btn-secondary" type="button"style="background-color : #1E88E5;">
+                          <i class="fa fa-search"></i>
+                      </button>
                   </div>
-                  <button type="button" class="btn btn-primary">
-                    <i class="fas fa-search"></i>
-                  </button>
                 </div>
               </div>
             </div>
@@ -227,12 +224,12 @@
           <div class="col-sm">
             <h4 class="title">Kecamatan</a></h4>
               <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh kecamatan di Kabupaten Ciamis.</p>
-              <u><strong><a href="bansoskecamatan">Lihat Selengkapnya..</strong></u></a><p> 
+              <u><strong><a href="bansoskecamatan">Lihat Selengkapnya</strong></u></a><p> 
           </div>
           <div class="col-sm">
             <h4 class="title">Kelurahan / Desa</a></h4>
               <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh wilayah Provinsi Jawa Barat.</p>
-              <u><strong><a href="bansoskabupaten">Lihat Selengkapnya..</strong></u></a><p> 
+              <u><strong><a href="bansoskabupaten">Lihat Selengkapnya</strong></u></a><p> 
           </div>
         </div>
       </div>
@@ -248,13 +245,11 @@
           <img src="assets/img/kurir.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Alur Pemberian Bantuan Sosial</h1>
-          <h2>Berbasis DTKS dan Non-DTKS</h2>
+          <h3>Alur Pemberian Bantuan Sosial</h3>
+          <h5>Berbasis DTKS dan Non-DTKS</h5>
           <p>Bagaimana alur pemberian bantuan sosial berbasis DTKS dan Non-DTKS dapat sampai ke masayrakat? Anda dapat melihat alur lengkap dari proses tersebut dengan mengklik tautan yang tersedia di bawah ini.
           <br></br>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Lihat Alur Pemberian Bantuan Sosial
-          </button> 
+          <a href="/alurbansos" class="btn btn-primary" role="button">Lihat Alur Pemberian Bantuan Sosial <i class='fas fa-external-link-alt'></i></a>
         </div>
       </div>
     </div>
@@ -263,12 +258,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Komponen Bantuan Sosial Tahap III </h1>
+            <h3>Komponen Bantuan Sosial Tahap III </h3>
             <p>Ada perubahan komponen bantuan di penyaluran tahap III. Apa saja? </p>
-            <button type="button" class="btn btn-primary" href="https://google.com">
-              <i class="fa external-link-alt"></i>
-              Cek disini!
-            </button>
+            <a href="#link" class="btn btn-primary" role="button">Cek Disini <i class='fas fa-external-link-alt'></i></a>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
             <img src="assets/img/bansos.png" class="img-fluid" alt="">
@@ -283,12 +275,10 @@
         <img src="assets/img/ditolak.png" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-        <h1>Alasan Ditolaknya Pendaftar</h1>
-        <h2>Sebagai Penerima Bantuan Sosial Provinsi</h2>
+        <h3>Alasan Ditolaknya Pendaftar</h3>
+        <h5>Sebagai Penerima Bantuan Sosial Provinsi</h5>
         <p>Pada aplikasi Sapawarga dan website Solidaritas, tercantum sekitar 27 alasan detail yang menjelaskan ditolaknya pendaftar sebagai penerima atau Keluarga Rumah Tangga Sasaran (KRTS) Bansos Provinsi.</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Lihat Penjelasan Detail Alasan Ditolaknya Pendaftar
-        </button>
+        <a href="/alasanditolak" class="btn btn-primary" role="button">Lihat Disini <i class='fas fa-external-link-alt'></i></a>
         </div> 
       </div>
     </div>
@@ -297,9 +287,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Kontak Hotline Bantuan Sosial</h1>
+          <h3>Kontak Hotline Bantuan Sosial</h3>
           <p>Anda dapat menghubungi Hotline Bantuan Sosial untuk bertanya atau sekedar mencari informasi seputar Bantuan Sosial di Jawa Barat.</p>
-          <button type="button" class="btn btn-primary"> Hubungi hotline kami</button>
+          <button type="button" class="btn btn-primary"> Hubungi hotline kami <i class="fas fa-phone-alt"></i></button>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/komputer.png" class="img-fluid" alt="">

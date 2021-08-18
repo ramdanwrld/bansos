@@ -42,7 +42,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero"><img src="assets/img/home.png" alt="home" />BERANDA</a></li>
+          <li><a class="nav-link scrollto active" href="/"><img src="assets/img/home.png" alt="home" />BERANDA</a></li>
           <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home" />PENGADUAN</a></li>
           <li><a href="/"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
@@ -52,26 +52,44 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" >
-
     <div class="container">
-      <div class="col">
-            <h1>Cari Informasi Penerima Bantuan</h1>
-            <div class="input-group">
-              <div class="form-outline">
-                <input id="search-focus" type="search" id="form1" class="form-control" />
-                <label class="form-label" for="form1">Search</label>
-              </div>
-              <button type="button" class="btn btn-primary">
-                <i class="fas fa-search"></i>
-              </button>
+      <div class="row align-items-center">
+        <div class="col-sm">
+          <h1 style="text-align:center;">Cari Informasi Penerima Bantuan</h1>
+          <br>
+        <div class="col">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Masukkan NIK Kepala Keluarga Disini">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button"style="background-color : #1E88E5;">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <img class="mx-auto d-block" src="assets/img/pencarian.png"> 
+              <br>
             </div>
           </div>
         </div>
+        <div class="col-sm">
+          <h2 style="text-align:center;">Informasi Penolakan</h2><br>
+          <p style="text-align:center;">Untuk mengecek siapa saja yang telah menerima bantuan,</p>
+          <p style="text-align:center;">  Anda dapat memulai dengan memasukkan NIK dari Kepala</p>
+          <p style="text-align:center;">Keluarga yang ingin dicari.</p>
+          <br>
+        </div>
       </div>
     </div>
-    <div class="col-lg-6 order-1 order-lg-2 hero-img">
-      <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-    </div>
+  </div>
+
   </section><!-- End Hero -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

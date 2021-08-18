@@ -25,6 +25,12 @@ Route::get('bansoskecamatan', function () {
 Route::get('bansoskabupaten', function () {
     return view('bansoskabupaten');
 });
+Route::get('alurbansos', function () {
+    return view('alurbansos');
+});
+Route::get('alasanditolak', function () {
+    return view('alasanditolak');
+});
 
 Auth::routes();
 
