@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('pencarian', function () {
+    return view('pencarian');
+});
+Route::get('bansoskecamatan', function () {
+    return view('bansoskecamatan');
+});
+Route::get('bansoskabupaten', function () {
+    return view('bansoskabupaten');
+});
 
 Auth::routes();
 

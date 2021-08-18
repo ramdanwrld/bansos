@@ -42,9 +42,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="#hotline">PENGADUAN</a></li>
-          <li><a class="nav-link scrollto" href="#">PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="#"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
 
     </div>
@@ -53,111 +53,110 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
-  <div class="container">
-	<div class="row">
-		<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-		      <h2>Selamat datang di portal</h2>
-          <h1>Sistem Online Data Penerima</h1>
-          <h1> Bantuan Sosial</h1>
-          <h2>Kabupaten Ciamis</h2>
-          <p>Program bantuan sosial dirancang pemerintah untuk mendukung kesejahteraan masyarakat yang terdampak ekonominya akibat pandemi COVID-19.
-            <a href="assets/img/bansos-1.png"class="glightbox play-btn mb-4">       
-            <u><strong>Lihat Selengkapnya..</strong></u></a><p>      
-          <p>Sekarang Anda dapat melihat daftar penerima bantuan di wilayah Anda.<p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Lihat Daftar Penerimaan Bantuan
-          </button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">PENCARIAN INFORMASI LEBIH LENGKAP</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">  
-                  <form>
-                    <div class="container">
-                      <div class="row">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2>Selamat datang di portal</h2>
+            <h1>Sistem Online Data Penerima</h1>
+            <h1> Bantuan Sosial</h1>
+            <h2>Kabupaten Ciamis</h2>
+            <p>Program bantuan sosial dirancang pemerintah untuk mendukung kesejahteraan masyarakat yang terdampak ekonominya akibat pandemi COVID-19.
+              <a href="assets/img/bansos-1.png"class="glightbox play-btn mb-4">       
+              <u><strong>Lihat Selengkapnya..</strong></u></a><p>      
+            <p>Sekarang Anda dapat melihat daftar penerima bantuan di wilayah Anda.<p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Lihat Daftar Penerimaan Bantuan
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PENCARIAN INFORMASI LEBIH LENGKAP</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">  
+                    <form>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-sm">
+                            <div class="modal-body">
+                              <div class="dropdown show">
+                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown link
+                                </a>                           
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                              <div class="dropdown show">
+                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown link
+                                </a>                            
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                              <div class="dropdown show">
+                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown link
+                                </a>
+                              
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         <div class="col-sm">
                           <div class="modal-body">
-                            <div class="dropdown show">
-                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                              </a>                           
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                            <div class="form-group">
+                              <label for="email1">Email address</label>
+                              <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown link
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
-                            <div class="dropdown show">
-                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                              </a>                            
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                            <div class="form-group">
+                              <label for="password1">Password</label>
+                              <input type="password" class="form-control" id="password1" placeholder="Password">
                             </div>
-                            <div class="dropdown show">
-                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                              </a>
-                            
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                            <div class="form-group">
+                              <label for="password1">Confirm Password</label>
+                              <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
                             </div>
                           </div>
-                        </div>
-                      <div class="col-sm">
-                        <div class="modal-body">
-                          <div class="form-group">
-                            <label for="email1">Email address</label>
-                            <div class="dropdown show">
-                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
-                              </a>
-                            
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
+                          <div class="modal-footer border-top-0 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-success">Submit</button>
                           </div>
-                          <div class="form-group">
-                            <label for="password1">Password</label>
-                            <input type="password" class="form-control" id="password1" placeholder="Password">
-                          </div>
-                          <div class="form-group">
-                            <label for="password1">Confirm Password</label>
-                            <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
-                          </div>
-                        </div>
-                        <div class="modal-footer border-top-0 d-flex justify-content-center">
-                          <button type="submit" class="btn btn-success">Submit</button>
                         </div>
                       </div>
-                    </div>
-                    </div> 
-                  </form>
+                      </div> 
+                    </form>
+                  </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-		</div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+          <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+          </div>
         </div>
       </div>
     </div>
-
   </section><!-- End Hero -->
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">">
@@ -215,23 +214,25 @@
   <main id="main">
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <section id="ramdan" class="d-flex align-items-center">
       <div class="container">
 
         <div class="section-title">
           <h2>STATISTIK BANTUAN SOSIAL</h2>
+          <p>Anda dapat melihat informasi realisasi bantuan sosial beserta jenis dan status alokasi bantuan sosial yang</p>
+          <p>dilengkapi jumlah total penerima manfaat pada masing-masing wilayah.</p>
         </div>
-
+        <br>
         <div class="row">
           <div class="col-sm">
-            <h4 class="title"><a href="">Kecamatan</a></h4>
+            <h4 class="title">Kecamatan</a></h4>
               <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh kecamatan di Kabupaten Ciamis.</p>
-              <p>Lihat Selengkapnya</p>
+              <u><strong><a href="bansoskecamatan">Lihat Selengkapnya..</strong></u></a><p> 
           </div>
           <div class="col-sm">
-            <h4 class="title"><a href="">Kelurahan / Desa</a></h4>
+            <h4 class="title">Kelurahan / Desa</a></h4>
               <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh wilayah Provinsi Jawa Barat.</p>
-              <p>Lihat Selengkapnya</p>
+              <u><strong><a href="bansoskabupaten">Lihat Selengkapnya..</strong></u></a><p> 
           </div>
         </div>
       </div>
