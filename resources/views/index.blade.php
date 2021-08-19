@@ -260,7 +260,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h3>Komponen Bantuan Sosial Tahap III </h3>
             <p>Ada perubahan komponen bantuan di penyaluran tahap III. Apa saja? </p>
-            <a href="https://sapawarga.jabarprov.go.id/#/info-penting?id=240" class="btn btn-primary" role="button">Cek Disini <i class='fas fa-external-link-alt'></i></a>
+            <a href="https://sapawarga.jabarprov.go.id/#/info-penting?id=240" class="btn btn-primary" role="button"style="height:35px;width:130px">Cek Disini <i class='fas fa-external-link-alt'></i></a>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
             <img src="assets/img/bansos.png" class="img-fluid" alt="">
@@ -278,7 +278,7 @@
         <h3>Alasan Ditolaknya Pendaftar</h3>
         <h5>Sebagai Penerima Bantuan Sosial Provinsi</h5>
         <p>Pada aplikasi Sapawarga dan website Solidaritas, tercantum sekitar 27 alasan detail yang menjelaskan ditolaknya pendaftar sebagai penerima atau Keluarga Rumah Tangga Sasaran (KRTS) Bansos Provinsi.</p>
-        <a href="/alasanditolak" class="btn btn-primary" role="button">Lihat Disini <i class='fas fa-external-link-alt'></i></a>
+        <a href="/alasanditolak" class="btn btn-primary" role="button"style="height:35px;width:130px">Lihat Disini <i class='fas fa-external-link-alt'></i></a>
         </div> 
       </div>
     </div>
@@ -289,7 +289,7 @@
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h3>Kontak Hotline Bantuan Sosial</h3>
           <p>Anda dapat menghubungi Hotline Bantuan Sosial untuk bertanya atau sekedar mencari informasi seputar Bantuan Sosial di Jawa Barat.</p>
-          <a href="https://api.whatsapp.com/send/?phone=6285697391854&text=Halo+Admin%21+Saya+ingin+tanya+seputar+PIKOBAR&app_absent=0" class="btn btn-primary"> Hubungi hotline kami <i class="fas fa-phone-alt"></i></a>
+          <a href="https://api.whatsapp.com/send/?phone=6285697391854&text=Halo+Admin%21+Saya+ingin+tanya+seputar+PIKOBAR&app_absent=0" class="btn btn-primary"style="height:35px;width:230px"> Hubungi hotline kami <i class="fas fa-phone-alt"></i></a>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/komputer.png" class="img-fluid" alt="">
