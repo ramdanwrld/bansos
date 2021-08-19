@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -37,14 +36,11 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
       <a href="/" class="logo"><img src="assets/img/pikocis.png" alt="" class="img-fluid"></a>
-      <!-- Uncomment below if you prefer to use text as a logo -->
-      <!-- <h1 class="logo"><a href="index.html">Butterfly</a></h1> -->
-
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
-          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/></i>&nbsp;BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/></i>&nbsp;PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" /></i>&nbsp;PENCARIAN</a></li>
       </nav><!-- .navbar -->
 
     </div>
@@ -52,114 +48,104 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
     <div class="container">
-    <div class="row">
-      <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h2>Selamat datang di portal</h2>
-            <h1>Sistem Online Data Penerima</h1>
-            <h1> Bantuan Sosial</h1>
-            <h2>Kabupaten Ciamis</h2>
-            <p>Program bantuan sosial dirancang pemerintah untuk mendukung kesejahteraan masyarakat yang terdampak ekonominya akibat pandemi COVID-19.
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2 style="color:black">Selamat datang di portal</h2>
+            <h1 style="text-align:left;color:black; font-size: 30px;">Sistem Online Data Penerima Bantuan Sosial</h1>
+            <h2 style="color:black">Pemerintah Kabupaten Ciamis</h2>
+            <p style="text-align:justify;">Program bantuan sosial dirancang pemerintah untuk mendukung kesejahteraan masyarakat yang terdampak ekonominya akibat pandemi COVID-19.
               <a href="assets/img/bansos-1.png"class="glightbox play-btn mb-4">       
-              <u><strong>Lihat Selengkapnya..</strong></u></a><p>      
+              <u><strong>Lihat Selengkapnya</strong></u></a><p>      
             <p>Sekarang Anda dapat melihat daftar penerima bantuan di wilayah Anda.<p>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Lihat Daftar Penerimaan Bantuan
+            <button type="button" class="btn btn-primary rounded" data-toggle="modal" data-target="#exampleModal">
+              Lihat Daftar Penerimaan Bantuan <i class='fas fa-external-link-alt'></i>
             </button>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">PENCARIAN INFORMASI LEBIH LENGKAP</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"style="color:#1E88E5;">PENCARIAN INFORMASI LEBIH LENGKAP</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">  
-                    <form>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm">
-                            <div class="modal-body">
-                              <div class="dropdown show">
-                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown link
-                                </a>                           
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </div>
-                              <div class="dropdown show">
-                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown link
-                                </a>                            
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </div>
-                              <div class="dropdown show">
-                                <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown link
-                                </a>
-                              
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        <div class="col-sm">
-                          <div class="modal-body">
-                            <div class="form-group">
-                              <label for="email1">Email address</label>
-                              <div class="dropdown show">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown link
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <label for="password1">Password</label>
-                              <input type="password" class="form-control" id="password1" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                              <label for="password1">Confirm Password</label>
-                              <input type="password" class="form-control" id="password2" placeholder="Confirm Password">
-                            </div>
-                          </div>
-                          <div class="modal-footer border-top-0 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-success">Submit</button>
-                          </div>
-                        </div>
+                  <div class="modal-body">
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">Kecamatan</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Pilih Kecamatan</option>
+                          <option>CIAMIS</option>
+                        </select>
                       </div>
-                      </div> 
+                      <div class="col-md-3">
+                        <label for="inputState" class="form-label">Pilih RT / RW </label>
+                        <select id="inputState" class="form-select">
+                          <option selected>RT</option>
+                          <option>01</option>
+                          <option>02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="inputState" class="form-label"style="color:#FFFFFF">.</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>RW</option>
+                          <option>01</option>
+                          <option>02</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">Kelurahan / Desa</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Pilih Kelurahan / Desa</option>
+                          <option>CIAMIS</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">Tahapan</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>PILIH TAHAPAN</option>
+                          <option>1</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputState" class="form-label">Tipe Bantuan </label>
+                        <select id="inputState" class="form-select">
+                          <option selected>PILIH TIPE BANTUAN</option>
+                          <option>PKH</option>
+                        </select>
+                      </div><br><br>
+                      <div class="col-md-6">
+                        </select>
+                      </div>
+                      <br><br>
+                      <div class="col-7">
+                        <div class="form-check">
+                          <p style="color:#1E88E5">  Atur ulang <i class="fas fa-redo-alt"style="color : #1E88E5;"></i> </p>
+                          </label>
+                        </div>
+                      </div>   
+                      <div class="col-md-2">
+                        <button type="submit" class="btn btn-outline-primary">Batal</button>
+                      </div>
+                      <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary">Terapkan</button>
+                      </div>
                     </form>
-                  </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
-          </div>
-        </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img">
+        <img src="assets/img/hero-img.png" class="img-fluid" alt=""width="500" height="600">
+      </div>
       </div>
     </div>
   </section><!-- End Hero -->
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">">
+    <section id="services" class="services section-bg">
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -211,7 +197,7 @@
   <main id="main">
 
     <!-- ======= Services Section ======= -->
-    <section id="ramdan" class="d-flex align-items-center">
+    <section id="coba" class="d-flex align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -228,8 +214,8 @@
           </div>
           <div class="col-sm">
             <h4 class="title">Kelurahan / Desa</a></h4>
-              <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh wilayah Provinsi Jawa Barat.</p>
-              <u><strong><a href="bansoskabupaten">Lihat Selengkapnya</strong></u></a><p> 
+              <p class="description">Lihat statistik jumlah penerima manfaat bantuan sosial pemerintah di seluruh kelurahan/desa di Kabupaten Ciamis.</p>
+              <u><strong><a href="bansoskelurahan">Lihat Selengkapnya</strong></u></a><p> 
           </div>
         </div>
       </div>
@@ -238,7 +224,7 @@
 
 
     </section><!-- kurir  Section -->
-    <section id="ramdan" class="d-flex align-items-center">
+    <section id="coba" class="services section-bg">
     <div class="container">
       <div class="row">
         <div class="col hero-img">
@@ -254,7 +240,7 @@
       </div>
     </div>
     </section><!-- End Counts Section -->
-    <section id="ramdan" class="d-flex align-items-center">
+    <section id="coba" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -268,7 +254,7 @@
         </div>
       </div>
   </section><!-- End Counts Section -->
-  <section id="ramdan" class="d-flex align-items-center">
+  <section id="coba" class="services section-bg">
   <div class="container">
     <div class="row">
       <div class="col hero-img">
@@ -298,7 +284,7 @@
     </div>
   </div>
   </section>
-  <section id="bekerjasama" class="bekerjasama">
+  <section id="bekerjasama" class="services section-bg">
     <div class="section-title">
       <h2>Bekerja sama dengan </h2>
   </div>

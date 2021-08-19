@@ -45,9 +45,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
-          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/></i>&nbsp;BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/></i>&nbsp;PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" /></i>&nbsp;PENCARIAN</a></li>
+        <ul>
       </nav><!-- .navbar -->
 
     </div>
@@ -71,9 +72,8 @@
             <div class="tab-pane fade show active" id="pills-bansostahap1" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="container">
                 <img src="assets/img/dtks.png" class="img-fluid" alt="">
-              </div>
-              <p>
-                <p>  Penjelasan :
+              </div><br>
+                <h2>  Penjelasan :</h2><br>
                 <p>  1.Basis data diambil dari data Kemensos yang sudah terdaftar sebagai penerima bantuan (DTKS) atau terdaftar di aplikasi SIKS-NG: https://siks.kemsos.go.id/
                 <p> 2.Data dikirim ke Dinas Sosial Kab/Kota dan ditembuskan ke Dinsos Provinsi.
                 <p> 3.Selanjutnya dilakukan proses pengolahan, pemadanan, verifikasi validasi data dan musyawarah:
@@ -95,6 +95,8 @@
               <div class="container">
                 <img src="assets/img/nondtks.png" class="img-fluid" alt="">
               </div>
+            <br>
+              <h2>  Penjelasan :</h2><br>
               <p>1. Proses awal data terdiri dari : 
               <p>a. Usulan mandiri oleh masyarakat yang ditujukan melalui aplikasi Sapawarga.
               <p>b. Desa/Kelurahan/Kecamatan mendata dan mengajukan usulan Penerima Bantuan Pemprov Jaabr melalui Dinsos Kab/Kota.

@@ -22,8 +22,8 @@ Route::get('pencarian', function () {
 Route::get('bansoskecamatan', function () {
     return view('bansoskecamatan');
 });
-Route::get('bansoskabupaten', function () {
-    return view('bansoskabupaten');
+Route::get('bansoskelurahan', function () {
+    return view('bansoskelurahan');
 });
 Route::get('alurbansos', function () {
     return view('alurbansos');

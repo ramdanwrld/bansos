@@ -37,12 +37,13 @@
 </head>
 <body>
   <!-- ======= Header ======= -->
+
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
       <a href="/" class="logo"><img src="assets/img/pikocis.png" alt="" class="img-fluid"></a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/></i>&nbsp;BERANDA</a></li>
+          <li><a  href="/"><img src="assets/img/home.png" alt="home"/></i>&nbsp;BERANDA</a></li>
           <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/></i>&nbsp;PENGADUAN</a></li>
           <li><a href="pencarian"><img src="assets/img/search.png" alt="home" /></i>&nbsp;PENCARIAN</a></li>
         <ul>
@@ -58,7 +59,7 @@
   <section id="hero" class="d-flex align-items-left">
     <div class="container">
       <a href="/"class="fas fa-long-arrow-alt-left" style="color:black"> Kembali</a>
-        <h1>Statistik Bantuan Tahap 1 di Kecamatan Ciamis</h1>
+        <h1>Statistik Bantuan Tahap 1 di Kelurahan Ciamis</h1>
         <p>Data yang disajikan berikut memuat informasi jenis dan status alokasi bantuan sosial yang dilengkapi jumlah total penerima manfaat di masing-masing wilayah.</p>
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"style="background-color : #E4E6E8;">
             <li class="nav-item">
