@@ -45,20 +45,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero"><img src="assets/img/home.png" alt="home" />BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home" />PENGADUAN</a></li>
-          <li><a href="/"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-left">
+  <br><br><br>
     <div class="container shadow min-vh-100 py-4">
       <br>
-      <a href="/"class="fas fa-long-arrow-alt-left">Kembali</a>
-        <h1>Alur Pemberian Bantuan Sosial</h1>
+      <a href="/"class="fas fa-long-arrow-alt-left" style="color:black"> Kembali</a><br><br>
+        <h1>Alur Pemberian Bantuan Sosial</h1><br>
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist"style="background-color : #E4E6E8;">
             <li class="nav-item">
               <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-bansostahap1" role="tab" aria-controls="pills-home" aria-selected="true">Alur DTKS</a>
@@ -127,7 +127,7 @@
         </div>
       </div>
     </div>
-  </div>
+
 
   </section><!-- End Hero -->
 

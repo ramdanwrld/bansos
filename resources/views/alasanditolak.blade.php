@@ -45,22 +45,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero"><img src="assets/img/home.png" alt="home" />BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home" />PENGADUAN</a></li>
-          <li><a href="/"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-left">
-    
     <div class="container shadow min-vh-100 py-4">
-      <br>
-      <a href="/"class="fas fa-long-arrow-alt-left">Kembali</a>
+      <br><br><br><br>
+      <a href="/"class="fas fa-long-arrow-alt-left" style="color:black"> Kembali</a><br>
         <br>
-        <h1>Penjelasan Ditolaknya Pendaftar Sebagai Penerima Bansos Provinsi</h1>
+        <h2>Penjelasan Ditolaknya Pendaftar Sebagai Penerima Bansos Provinsi</h2><br>
         <p>I. Penjelasan Umum
         <p>Bantuan Sosial Provinsi (Bansos Provinsi) adalah program bantuan sosial yang diselenggarakan oleh Pemerintah Daerah Provinsi Jawa Barat. Bantuan ini diberikan kepada keluarga (bukan individu) yang mengalami kesulitan ekonomi akibat Pandemi Covid-19. Agar memastikan bantuan sosial tepat sasaran, Pemdaprov Jabar memberlakukan mekanisme penyaringan data pendaftar yang menyebabkan tidak semua pendaftar berhak mendapatkan bantuan sosial.
 
@@ -120,7 +118,6 @@
 
 
     </div>
-  </div>
 
   </section><!-- End Hero -->
 

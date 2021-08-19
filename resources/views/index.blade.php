@@ -42,8 +42,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
           <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
 
@@ -260,7 +260,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h3>Komponen Bantuan Sosial Tahap III </h3>
             <p>Ada perubahan komponen bantuan di penyaluran tahap III. Apa saja? </p>
-            <a href="#link" class="btn btn-primary" role="button">Cek Disini <i class='fas fa-external-link-alt'></i></a>
+            <a href="https://sapawarga.jabarprov.go.id/#/info-penting?id=240" class="btn btn-primary" role="button">Cek Disini <i class='fas fa-external-link-alt'></i></a>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
             <img src="assets/img/bansos.png" class="img-fluid" alt="">
@@ -289,7 +289,7 @@
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h3>Kontak Hotline Bantuan Sosial</h3>
           <p>Anda dapat menghubungi Hotline Bantuan Sosial untuk bertanya atau sekedar mencari informasi seputar Bantuan Sosial di Jawa Barat.</p>
-          <button type="button" class="btn btn-primary"> Hubungi hotline kami <i class="fas fa-phone-alt"></i></button>
+          <a href="https://api.whatsapp.com/send/?phone=6285697391854&text=Halo+Admin%21+Saya+ingin+tanya+seputar+PIKOBAR&app_absent=0" class="btn btn-primary"> Hubungi hotline kami <i class="fas fa-phone-alt"></i></a>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/komputer.png" class="img-fluid" alt="">

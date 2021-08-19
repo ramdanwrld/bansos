@@ -37,6 +37,7 @@
 </head>
 <body>
   <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
       <a href="/" class="logo"><img src="assets/img/pikocis.png" alt="" class="img-fluid"></a>
@@ -45,10 +46,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero"><img src="assets/img/home.png" alt="home" />BERANDA</a></li>
-          <li><a class="nav-link scrollto" href="#hotline"><img src="assets/img/pengaduan.png" alt="home" />PENGADUAN</a></li>
-          <li><a href="/"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
+          <li><a class="nav-link scrollto active" href="/"><img src="assets/img/home.png" alt="home"/>BERANDA</a></li>
+          <li><a class="nav-link scrollto" href="/#hotline"><img src="assets/img/pengaduan.png" alt="home"/>PENGADUAN</a></li>
+          <li><a href="pencarian"><img src="assets/img/search.png" alt="home" />PENCARIAN</a></li>
       </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
 
     </div>
   </header><!-- End Header -->
